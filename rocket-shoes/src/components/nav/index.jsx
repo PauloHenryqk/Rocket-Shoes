@@ -1,4 +1,4 @@
-import "./style"
+import "./style.css"
 
 function Nav() {
 
@@ -6,13 +6,13 @@ function Nav() {
         <nav>
             <img src="" alt=""></img>
             <ul>
-                <li></li>
+                <li>HOMEM</li>
                 <li></li>
                 <li></li>
                 <li></li>
             </ul>
             <input type="search" placeholder="pesquisar"/>
-            <ion-icon></ion-icon>
+            <ion-icon name="bag-handle-outline"></ion-icon>
 
         </nav>
     )
