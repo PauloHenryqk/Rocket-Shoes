@@ -4,14 +4,17 @@ function Nav() {
 
     return (
         <nav>
-            <img src="" alt=""></img>
+            <img src="./assets/favicon.ico" alt="logo tenis"></img>
             <ul>
-                <li>HOMEM</li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>homem</li>
+                <li>mulher</li>
+                <li>criança</li>
+                <li>customisar</li>
             </ul>
-            <input type="search" placeholder="pesquisar"/>
+            <div className="search">
+                <img src="./assets/icon-search.svg" alt="icone de lupa" />
+               <input type="search" placeholder="pesquisar"/>
+            </div>
             <ion-icon name="bag-handle-outline"></ion-icon>
 
         </nav>
