@@ -12,7 +12,7 @@ function Nav() {
                 <li>customisar</li>
             </ul>
             <div className="search">
-                <img src="./assets/icon-search.svg" alt="icone de lupa" />
+               <img src="./assets/icon-search.svg" alt="icone de lupa" />
                <input type="search" placeholder="pesquisar"/>
             </div>
             <ion-icon name="bag-handle-outline"></ion-icon>

@@ -1,7 +1,44 @@
 nav {
-    background-color: rgba(0,181,226, 0.1);
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,181,226, 0);
+}
+
+nav img {
+    width: 40px;
 }
 
 ul {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: upperCase;
+
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.search {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.search img {
+    width: 20px;
+}
+
+.search input {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+}
+
+ion-icon {
+    font-size: 25px;
 }
