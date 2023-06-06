@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 56.2rem;
+    height: 57rem;
+    background-color: #c4c4c4;
+}
+
+main img {
+    width: 597px;
+}
+
+#selection {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    position: relative;
+    bottom: 30px;
+
+    
+}
+
+#selection img {
+    width: 16rem;
+    height: 11rem;
+}
+
+#center-img {
+    width: 15rem;
+    height: 11rem;
+}
