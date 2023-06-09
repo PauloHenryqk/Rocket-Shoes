@@ -1,6 +1,9 @@
 #price {
-    width: 357px;
-   /* height: 536px; */
+   width: 357px;
+   height: 536px;
+   margin: auto;
+
+   grid-area: p;
 }
 
 h1 {

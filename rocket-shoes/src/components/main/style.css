@@ -5,6 +5,8 @@ main {
     width: 56.2rem;
     height: 57rem;
     background-color: #c4c4c4;
+
+    grid-area: m;
 }
 
 main img {

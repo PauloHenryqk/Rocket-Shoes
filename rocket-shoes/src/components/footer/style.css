@@ -1,7 +1,9 @@
 footer {
+    width: 100vw;
     height: 10rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 iframe {
@@ -10,5 +12,19 @@ iframe {
 }
 
 a {
+    color: black;
     text-decoration: none;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+footer button {
+    width: 27rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
 }

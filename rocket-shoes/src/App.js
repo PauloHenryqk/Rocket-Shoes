@@ -7,12 +7,12 @@ import Footer from "./components/footer/index"
 function App() {
   return (
     <>
-       <Nav />
-       <div class="containMain">
-          <Price />
-          <Main />
-       </div>
-       <Footer />
+        <div id="main">
+           <Nav />
+           <Price />
+           <Main />
+        </div>
+        <Footer />
     </>
   );
 }

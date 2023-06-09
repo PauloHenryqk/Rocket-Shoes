@@ -6,7 +6,11 @@
     font-family:"roboto";
 }
 
-.containMain {
-    display: flex;
-    justify-content: space-between;
+#main {
+    display: grid;
+    grid-template-areas: "n n"
+                         "p m";
+    grid-template-columns: 1fr 2fr;
+    position: relative;
+
 }
