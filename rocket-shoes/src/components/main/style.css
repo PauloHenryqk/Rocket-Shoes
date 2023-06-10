@@ -1,9 +1,11 @@
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     width: 56.2rem;
     height: 57rem;
+
+    display: flex;
+    flex-direction: column;
+    /* a propriedade a seguir não funciona */
+    justify-content: flex-end;
     background-color: #c4c4c4;
 
     grid-area: m;
@@ -11,17 +13,18 @@ main {
 
 main img {
     width: 597px;
+    height:510px;
+    /*margin: auto;*/
+    align-self: center;
 }
 
 #selection {
-    margin: auto;
+    width: 90%;
+    height: 11rem;
+    margin: 30px auto;
     display: flex;
     justify-content: space-between;
-    gap: 25px;
-    position: relative;
-    bottom: 30px;
-
-    
+    gap: 30px;
 }
 
 #selection img {
