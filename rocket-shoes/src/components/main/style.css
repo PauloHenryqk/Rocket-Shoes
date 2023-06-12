@@ -36,3 +36,8 @@ main img {
     width: 15rem;
     height: 11rem;
 }
+
+.selected {
+    background-color: red;
+    padding: 0px 0px 3px 0px;
+}
